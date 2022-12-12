@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Praktikum Pengweb 4- Andre Riantasa Wijaya</title>
+
+    <style>
+        body {
+            background-color: rgb(114, 200, 250);
+        }
+
+        #btn {
+            font-size: 18px;
+            width: 100px !important;
+            height: 30px !important;
+            background-color: beige;
+        }
+    </style>
+</head>
+
+<h1>Welcome to My Website</h1>
+
+<body>
+
+    <label for="theme">Select theme: </label>
+
+    <button id="light" onclick="light()">Light</button>
+    <button id="dark" onclick="dark()">Dark</button>
+
+    <br>
+    <label>Select the weather type today: </label>
+    <select name="weather" id="weather" onchange="weather()">
+        <option value="sunny">Sunny</option>
+        <option value="rainy">Rainy</option>
+    </select>
+    <p id="weatherr"></p>
+    <br>
+
+
+    <label>Input number: </label>
+    <input type="text" id="hitung">
+    <button onclick="hitung()">Cek bilangan</button>
+    <p><label for="" id="hasil"></label></p>
+
+    </div>
+
+    <script src="minggu4.js"></script>
+</body>

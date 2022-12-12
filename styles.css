@@ -1,0 +1,111 @@
+@import url("https://fonts.googleapis.com/css2?family=Ubuntu:wght@300;400;500;700&display=swap");
+
+* {
+  font-family: "Trebuchet MS", sans-serif;
+  
+  color: rgb(15, 14, 14);
+}
+
+.container {
+
+  text-align: center;
+  padding: 10px;
+  box-sizing: border-box;
+  border-radius: 30px;
+}
+
+
+.isi{
+  margin-left:25%;
+  width: 50%;
+  padding-left: 20px;
+  background-color: #dbd5af;
+}
+
+.container b {
+  color: black;
+}
+
+
+img {
+  width: 30% ;
+  height: 30% ;
+  align-items: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 45%;
+}
+h3 {
+  color: rgb(39, 107, 6);
+}
+
+a{
+  color: rgb(63, 44, 234);
+  font-size: 4;
+}
+th {
+  font-size : 13px;
+  background-color: #c9aa10;
+  color: black (255, 251, 251);
+}
+td {
+  font-size : 13px;
+  color: black (250, 251, 248);
+}
+body {
+  background-color: OliveDrab ;
+}
+
+@media screen and (max-width: 820px) {
+  iframe {
+    width : 300px;
+    height : auto;
+  }
+
+  img {
+    width: 55% ;
+    height: 55%;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .isi{
+    margin-left: 5%;
+    width: 85%;
+    padding-left: 10;
+    padding-right: 0;
+  }
+  img {
+    width: 80%;
+    height: 80%;
+  }
+  h2 {
+    font-size : 16px;
+  }
+  a {
+    font-size : 13px;
+  }
+  dd {
+    font-size: 13px;
+  }
+
+  h3 {
+    font-size: 15px;
+  }
+  p {
+    font-size: 14px;
+  }
+  iframe {
+    width : 250px;
+    height : auto;
+  }
+}
+
+
+
+
+
+
+
+
